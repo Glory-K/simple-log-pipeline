@@ -1,0 +1,34 @@
+# environment
+.env
+.env.*
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# jupyter
+.ipynb_checkpoints/
+
+# editor
+.vscode/
+.idea/
+
+# os
+.DS_Store
+Thumbs.db
+
+# logs
+*.log
+
+# local db files
+*.db
+*.sqlite3
+
+# test / cache
+.pytest_cache/
+.mypy_cache/
+
+# docker / temp
+*.pid
