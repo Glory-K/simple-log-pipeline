@@ -48,7 +48,11 @@ simple-log-pipeline/
 - Docker
 - Docker Compose
 
-### 실행 방법
+### 사전 준비
+
+- Docker와 Docker Compose가 설치되어 있어야 합니다.
+
+### 실행 명령어
 
 프로젝트 루트 폴더에서 아래 명령어를 실행합니다.
 
