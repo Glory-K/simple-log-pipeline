@@ -2,7 +2,7 @@ import random
 import uuid
 from datetime import datetime, timedelta
 
-EVENT_TYPES = ["page_vies", "purchase", "error"]
+EVENT_TYPES = ["page_view", "purchase", "error"]
 PAGE_URLS = ["/", "/products", "/cart", "/checkout", "/search", "/mypage"]
 PRODUCT_IDS = ["P100", "P200", "P300", "P400", "P500"]
 ERROR_CODES = ["E400", "E401", "E404", "E500"]
