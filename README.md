@@ -48,9 +48,10 @@ simple-log-pipeline/
 - Docker
 - Docker Compose
 
-### 사전 준비
+### 설치 방법
 
-- Docker와 Docker Compose가 설치되어 있어야 합니다.
+- Docker Desktop을 설치하거나, Docker Engine과 Docker Compose를 설치합니다.
+- 설치가 완료되면 아래 실행 명령어를 사용할 수 있습니다.
 
 ### 실행 명령어
 
@@ -105,6 +106,12 @@ CREATE TABLE IF NOT EXISTS events (
     error_code VARCHAR(50)
 );
 ```
+
+### 저장소 선택 이유
+
+이번 과제에서는 앱과 DB를 함께 Docker Compose로 실행해야 했기 때문에, 컨테이너 환경에서 구성하기 쉽고 SQL 기반 분석을 바로 수행할 수 있는 PostgreSQL을 저장소로 선택했습니다.
+
+또한 현재 과제의 목적이 이벤트 생성 이후 저장, 분석, 시각화까지 이어지는 흐름을 보여주는 것이었기 때문에, 관계형 구조와 SQL 집계가 자연스러운 PostgreSQL이 적합하다고 판단했습니다.
 
 ## 7. 분석 항목
 
